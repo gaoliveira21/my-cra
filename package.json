@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "my-create-react-app": "index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },

@@ -5,7 +5,7 @@ const download = require('download-git-repo')
 
 const REPO_URL = 'direct:https://codeload.github.com/gaoliveira21/react-base-config/zip/main'
 const folderName = process.argv[2] ?? 'react-app'
-const fullPath = path.resolve(__dirname, folderName)
+const fullPath = path.resolve('./', folderName)
 
 console.log('Downloading files...')
 
